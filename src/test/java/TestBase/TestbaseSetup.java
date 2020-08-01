@@ -36,6 +36,7 @@ public class TestbaseSetup {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
 	}
 
+
 	public void BeforeWindowHandler(){
 		for(String winHandle : driver.getWindowHandles()){
 			driver.switchTo().window(winHandle);
@@ -45,6 +46,8 @@ public class TestbaseSetup {
 	public void AfterWindowHandler(String parentWindow){
 		driver.switchTo().window(parentWindow);
 	}
+
+
 
 	@AfterSuite
 	public static void quitBrowser(){
