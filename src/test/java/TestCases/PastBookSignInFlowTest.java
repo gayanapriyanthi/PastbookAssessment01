@@ -14,7 +14,7 @@ import PageElements.HomePageElements;
 public class PastBookSignInFlowTest extends TestbaseSetup {
 
 	private static final String EMAIL = "gayanatest@gmail.com";
-	private static final String PASSWORD = "wGhdWfi4";
+	private static final String PASSWORD = "c2zAl40B";
 
 
 	@Test(priority = 1)
